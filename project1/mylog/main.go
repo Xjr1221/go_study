@@ -16,6 +16,7 @@ func main() {
 		log.Error("error")
 		log.Fatal("fatal")
 		time.Sleep(time.Second * 2)
+
 	}
 	log.CloseFile()
 }
